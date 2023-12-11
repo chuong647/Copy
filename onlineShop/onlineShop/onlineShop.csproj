@@ -207,7 +207,7 @@
     <Compile Include="Models\EF\HoaDon.cs" />
     <Compile Include="Models\EF\KhachHang.cs" />
     <Compile Include="Models\EF\NhanVien.cs" />
-    <Compile Include="Models\EF\NCT_ShopDbContext.cs" />
+    <Compile Include="Models\EF\OnlineShopDbContext.cs" />
     <Compile Include="Models\EF\PhanLoai.cs" />
     <Compile Include="Models\EF\SanPham.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -874,6 +874,9 @@
     <Content Include="assets\client\image\backgroundForAccount3.jpg" />
     <Content Include="assets\client\image\backgroundForAccount4.jpg" />
     <Content Include="assets\client\image\backgroundForAccount5.jpg" />
+    <Content Include="assets\client\image\Baner1.jpg" />
+    <Content Include="assets\client\image\Banner2.jpg" />
+    <Content Include="assets\client\image\Banner3.jpg" />
     <Content Include="assets\client\image\brand.png" />
     <Content Include="assets\client\image\do.png" />
     <Content Include="assets\client\image\kid.png" />

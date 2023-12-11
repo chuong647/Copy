@@ -8,10 +8,10 @@ namespace onlineShop.Models.DAO
 {
     public class HoaDonDao
     {
-        NCT_ShopDbContext db = null;
+        OnlineShopDbContext db = null;
         public HoaDonDao()
         {
-            db = new NCT_ShopDbContext();
+            db = new OnlineShopDbContext();
         }
         public IQueryable<HoaDon> HoaDons
         {

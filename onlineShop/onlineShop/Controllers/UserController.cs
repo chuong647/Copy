@@ -12,7 +12,7 @@ namespace onlineShop.Controllers
 {
     public class UserController : Controller
     {
-        NCT_ShopDbContext db = new NCT_ShopDbContext();
+        OnlineShopDbContext db = new OnlineShopDbContext();
         // GET: /Account/
         public ActionResult Index()
         {

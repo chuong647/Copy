@@ -8,10 +8,10 @@ namespace onlineShop.Models.DAO
 {
     public class ChiTietHDDao
     {
-        NCT_ShopDbContext db = null;
+        OnlineShopDbContext db = null;
         public ChiTietHDDao()
         {
-            db = new NCT_ShopDbContext();
+            db = new OnlineShopDbContext();
         }
         public List<ChiTietHD> ViewDetails (int maHD){
             var list = db.ChiTietHDs.Where(x => x.MaHD == maHD).ToList();

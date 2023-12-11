@@ -4,16 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using onlineShop.Models.EF;
-using System.Data.SqlClient;
 
 namespace onlineShop.DAO
 {
     public class UserDao
     {
-        NCT_ShopDbContext db = null;
+        OnlineShopDbContext db = null;
         public UserDao()
         {
-            db = new NCT_ShopDbContext();
+            db = new OnlineShopDbContext();
         }
         public KhachHang FindInfo(string taiK)
         {

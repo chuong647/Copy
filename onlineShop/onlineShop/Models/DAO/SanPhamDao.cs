@@ -12,10 +12,10 @@ namespace onlineShop.DAO
 {
     public class SanPhamDao
     {
-        NCT_ShopDbContext db = null;
+        OnlineShopDbContext db = null;
         public SanPhamDao()
         {
-            db = new NCT_ShopDbContext();
+            db = new OnlineShopDbContext();
         }
         public IQueryable<SanPham> SanPhams
         {

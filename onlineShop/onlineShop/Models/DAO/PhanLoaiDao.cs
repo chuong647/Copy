@@ -10,10 +10,10 @@ namespace onlineShop.DAO
 {
     public class PhanLoaiDao
     {
-        NCT_ShopDbContext db = null;
+        OnlineShopDbContext db = null;
         public PhanLoaiDao()
         {
-            db = new NCT_ShopDbContext();
+            db = new OnlineShopDbContext();
         }
         public IQueryable<PhanLoai> PhanLoais
         {

@@ -154,7 +154,7 @@ namespace onlineShop.Controllers
                 CThoadon.ThanhTien = item.sp.GiaMoi * item.SoLuong;
                 ChiTietDao.Insert(CThoadon);
             }
-            new NCT_ShopDbContext().SaveChanges();
+            new OnlineShopDbContext().SaveChanges();
             return RedirectToAction("Success");
         }
         public ActionResult Success()

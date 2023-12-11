@@ -9,10 +9,10 @@ namespace onlineShop.DAO
 {
     public class KhachHangDao
     {
-         NCT_ShopDbContext db = null;
+         OnlineShopDbContext db = null;
         public KhachHangDao()
         {
-            db = new NCT_ShopDbContext();
+            db = new OnlineShopDbContext();
         }
         public IQueryable<KhachHang> KhachHangs
         {
